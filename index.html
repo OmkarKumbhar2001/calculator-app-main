@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Calculator app</title>
+  <link href="https://fonts.googleapis.com/css2?family=Spartan&display=swap" rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main-top">
+    <div>
+      <b>calc</b>
+    </div>
+    <div class="second-top">
+      <div>
+        <span class="theme-name">THEME</span>
+      </div>
+      <div class="theme-changer">
+        <div class="theme-nummbers">
+          <p class="theme-ii">1</p>
+          <p class="theme-ii">2</p>
+          <p class="theme-ii">3</p>
+        </div>
+        <div class="dot">
+          <div id="theme" class="circle"></div>
+          <div id="theme_1"></div>
+          <div id="theme_2"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="screen">
+    <p class="previous-opred-screen"></p> <!-- previous Oprend screen -->
+    <p class="current-operands-screen">0</p>
+
+  </div>
+  <div class="keypad">
+    <div class="keypad_btn">
+      <div class="numbers 7">7</div>
+      <div class="numbers 8">8</div>
+      <div class="numbers 9">9</div>
+      <div class="DEL">DEL</div>
+    </div>
+    <div class="keypad_btn">
+      <div class="numbers 4">4</div>
+      <div class="numbers 5">5</div>
+      <div class="numbers 6">6</div>
+      <div class="add operands ">+</div>
+    </div>
+    <div class="keypad_btn">
+      <div class="numbers 1">1</div>
+      <div class="numbers 2">2</div>
+      <div class="numbers 3">3</div>
+      <div class="sub operands ">-</div>
+    </div>
+    <div class="keypad_btn">
+      <div class="numbers ">.</div>
+      <div class="numbers 0">0</div>
+      <div class="div operands">/</div>
+      <div class="mul operands">*</div>
+    </div>
+    <div class="keypad_btn">
+      <div class="Reset RESET">RESET</div>
+      <div class="equal_button ">=</div>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Omkar</a>.
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
